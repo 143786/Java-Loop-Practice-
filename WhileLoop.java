@@ -14,7 +14,7 @@ public class WhileLoop {
         Scanner scanner = new Scanner(System.in);
         String input = "";
         while (!input.equals("quit")){
-            System.out.println("Enter Message : ");
+            System.out.print("Enter Message : ");
             input= scanner.nextLine().toLowerCase();
             System.out.println(input);
 
